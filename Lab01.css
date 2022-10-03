@@ -1,0 +1,15 @@
+.header
+{
+  background-color: white;
+  color:black;
+  border-radius: 25px;
+  font-size:larger;
+}
+.Myskills
+{
+    border-top: 100px;
+    border-bottom: 100px;
+    background-color: skyblue;
+    border-radius: 25px;
+    color:white;
+}
