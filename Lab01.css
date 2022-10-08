@@ -1,3 +1,7 @@
+body
+{
+  background-color: #001a33;
+}
 .header
 {
   background-color: white;
@@ -10,24 +14,20 @@
 .Myskills
 {
     padding:20px;
-    background-color: #cce6ff;
+    background-color: #80c1ff;
     border-radius: 25px;
     color:black;
     margin: 10px;
 }
-.works
-{
-    padding:20px;
-    background-color:#80c1ff;
-    border-radius: 25px;
-    color:black;
-    margin:10px;
-}
-.referance
+.links
 {
   padding:20px;
     background-color:#004280;
     border-radius: 25px;
-    color:black;
+    color:white;
     margin:10px;
+}
+.img{
+  margin: 10px;
+  border-radius: 25px;
 }
