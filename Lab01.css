@@ -2,32 +2,66 @@ body
 {
   background-color: #001a33;
 }
+div{
+  border-radius: 25px;
+  padding:20px;
+  margin: 10px;
+}
 .header
 {
   background-color: white;
   color:black;
-  border-radius: 25px;
   font-size:larger;
+  border-radius: 25px;
   padding:20px;
   margin: 10px;
 }
 .Myskills
 {
-    padding:20px;
     background-color: #80c1ff;
-    border-radius: 25px;
     color:black;
-    margin: 10px;
 }
 .links
 {
   padding:20px;
     background-color:#004280;
-    border-radius: 25px;
     color:white;
-    margin:10px;
 }
 .img{
   margin: 10px;
   border-radius: 25px;
+}
+.ref{
+  background-color: white;
+  color:black;
+}
+@media screen and (min-width:800px) 
+{
+body{
+    display: grid;
+    height: auto;
+    width: auto;
+    grid-template-columns: 60% 40% ;
+    grid-template-rows: auto auto auto;
+
+}
+.header{
+  grid-row: 1/2;
+  grid-column: 1/4;
+}
+.img{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.Myskills{
+  grid-row:2/3 ;
+  grid-column: 2/3;
+}
+.links{
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+.ref{
+  grid-column: 1/3;
+}
 }
